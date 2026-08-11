@@ -1,0 +1,10 @@
+Certificates added:
+1. Java Full Stack Internship Credential — EduSkills — 03 Mar 2026
+2. Getting Started with MongoDB Atlas — MongoDB — 26 Aug 2025
+3. Data Engineering Virtual Internship — Oct-Dec 2025
+4. AWS Academy Graduate - Cloud Foundations — 20 hours — 26 Nov 2025
+5. AI Fundamentals — Google/Coursera — 27 Jun 2026
+6. Introduction to Cybersecurity — Cisco Networking Academy — 03 Nov 2025
+7. Ethical Hacking 101 — 03 Jun 2026
+8. Introduction to Generative AI Studio — 03 Jun 2026
+9. Java Full Stack Developer Virtual Internship — Jan-Mar 2026
