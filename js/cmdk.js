@@ -27,6 +27,7 @@ function initCommandPalette() {
     // Direct Actions
     { title: 'Download Resume', subtitle: 'PDF Document', icon: 'fa-solid fa-file-arrow-down', type: 'Action', action: () => window.open('assets/Akarsh-Resume.pdf', '_blank') },
     { title: 'SkyCast Live Demo', subtitle: 'Open weather forecast app', icon: 'fa-solid fa-cloud-sun', type: 'Action', action: () => window.open('https://akarsh32-hub.github.io/advance-weather-app/', '_blank') },
+    { title: 'SkyCast GitHub Repo', subtitle: 'View weather app source code', icon: 'fa-brands fa-github', type: 'Action', action: () => window.open('https://github.com/akarsh32-hub/advance-weather-app', '_blank') },
     { title: 'GitHub Profile', subtitle: 'github.com/akarsh32-hub', icon: 'fa-brands fa-github', type: 'External', action: () => window.open('https://github.com/akarsh32-hub', '_blank') },
     { title: 'LinkedIn Profile', subtitle: 'linkedin.com/in/singhakarsh01', icon: 'fa-brands fa-linkedin-in', type: 'External', action: () => window.open('https://linkedin.com/in/singhakarsh01/', '_blank') },
     { title: 'Toggle Light / Dark Theme', subtitle: 'Switch color appearance', icon: 'fa-solid fa-circle-half-stroke', type: 'Theme', action: () => document.getElementById('themeBtn')?.click() }
