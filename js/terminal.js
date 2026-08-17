@@ -105,7 +105,7 @@ function initInteractiveShell() {
 
       case 'projects':
         printLine('📂 Featured Projects:');
-        printLine('  1. <strong>SkyCast Weather App</strong> - Live forecast dashboard (OpenWeather API)');
+        printLine('  1. <strong>SkyCast AI Platform</strong> - Disaster & meteorological intelligence (OpenWeather & Maps)');
         printLine('  2. <strong>Mehfil Music Platform</strong> - Curated music streaming web app (Netlify)');
         printLine('  3. <strong>DSA Problem Solving in Java</strong> - Arrays, Strings, Trees & LeetCode');
         printLine('  4. <strong>Akarsh Developer Portfolio v2</strong> - Modern interactive portfolio');
