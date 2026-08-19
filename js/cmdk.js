@@ -16,16 +16,17 @@ function initCommandPalette() {
   const items = [
     // Sections
     { title: 'Home', subtitle: 'Back to top overview', icon: 'fa-solid fa-house', type: 'Section', action: () => scrollToSection('home') },
-    { title: 'About Me', subtitle: 'Background, bio & developer status', icon: 'fa-solid fa-user', type: 'Section', action: () => scrollToSection('about') },
-    { title: 'Technical Skills', subtitle: 'Languages, frameworks & tools', icon: 'fa-solid fa-code', type: 'Section', action: () => scrollToSection('skills') },
-    { title: 'Featured Projects', subtitle: 'SkyCast, DSA Practice, Portfolio', icon: 'fa-solid fa-folder-open', type: 'Section', action: () => scrollToSection('projects') },
-    { title: 'Experience & Internships', subtitle: 'Java Full Stack & AWS internships', icon: 'fa-solid fa-briefcase', type: 'Section', action: () => scrollToSection('experience') },
-    { title: 'Certifications', subtitle: 'AWS, Google AI, Cisco, MongoDB', icon: 'fa-solid fa-award', type: 'Section', action: () => scrollToSection('certificates') },
-    { title: 'Academic Journey', subtitle: 'B.Tech CSE, Intermediate & High School', icon: 'fa-solid fa-graduation-cap', type: 'Section', action: () => scrollToSection('education') },
-    { title: 'Contact Me', subtitle: 'Send email or social connect', icon: 'fa-solid fa-paper-plane', type: 'Section', action: () => scrollToSection('contact') },
+    { title: 'Why Hire Me / Recruiter Brief', subtitle: 'Executive summary for technical interviewers', icon: 'fa-solid fa-bolt', type: 'Section', action: () => scrollToSection('why-hire-me') },
+    { title: 'About Candidate', subtitle: '3rd-year CSE background & career goals', icon: 'fa-solid fa-user', type: 'Section', action: () => scrollToSection('about') },
+    { title: 'Technical Skills', subtitle: 'Java, Spring Boot, MySQL, AWS, JS', icon: 'fa-solid fa-code', type: 'Section', action: () => scrollToSection('skills') },
+    { title: 'Featured Projects', subtitle: 'SkyCast AI, Mehfil, Java Full-Stack Backend', icon: 'fa-solid fa-folder-open', type: 'Section', action: () => scrollToSection('projects') },
+    { title: 'Experience & Internships', subtitle: 'EduSkills Java Full Stack & AWS internships', icon: 'fa-solid fa-briefcase', type: 'Section', action: () => scrollToSection('experience') },
+    { title: 'Certifications', subtitle: '9 verified credentials (AWS, Google AI, Cisco, MongoDB)', icon: 'fa-solid fa-award', type: 'Section', action: () => scrollToSection('certificates') },
+    { title: 'Academic Journey', subtitle: 'B.Tech CSE (3rd Year), Class XII & X', icon: 'fa-solid fa-graduation-cap', type: 'Section', action: () => scrollToSection('education') },
+    { title: 'Contact Candidate', subtitle: 'Send email or connect on LinkedIn', icon: 'fa-solid fa-paper-plane', type: 'Section', action: () => scrollToSection('contact') },
 
     // Direct Actions
-    { title: 'Download Resume', subtitle: 'PDF Document', icon: 'fa-solid fa-file-arrow-down', type: 'Action', action: () => window.open('assets/Akarsh-Resume.pdf', '_blank') },
+    { title: 'Download Official Resume', subtitle: 'Single-page ATS PDF Document', icon: 'fa-solid fa-file-arrow-down', type: 'Action', action: () => window.open('assets/Akarsh-Resume.pdf', '_blank') },
     { title: 'SkyCast AI Live Platform', subtitle: 'Disaster & meteorological intelligence platform', icon: 'fa-solid fa-cloud-bolt', type: 'Action', action: () => window.open('https://akarsh32-hub.github.io/SkyCast-AI/', '_blank') },
     { title: 'SkyCast AI GitHub Repo', subtitle: 'View SkyCast AI source code', icon: 'fa-brands fa-github', type: 'Action', action: () => window.open('https://github.com/akarsh32-hub/SkyCast-AI', '_blank') },
     { title: 'Mehfil Music Live Demo', subtitle: 'Open Mehfil music web app', icon: 'fa-solid fa-music', type: 'Action', action: () => window.open('https://mehfildilse.netlify.app', '_blank') },

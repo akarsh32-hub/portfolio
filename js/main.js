@@ -42,11 +42,10 @@ function initTypingEffect() {
   if (!typingElement) return;
 
   const roles = [
-    "Software Developer",
-    "Java Developer",
-    "Web Developer",
-    "DSA Practitioner",
-    "AI Enthusiast"
+    "Software Development Engineer (SDE)",
+    "Java Full Stack Developer",
+    "Backend & REST API Engineer",
+    "Cloud & AI Practitioner"
   ];
 
   let roleIndex = 0;

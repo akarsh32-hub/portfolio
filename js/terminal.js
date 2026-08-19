@@ -80,35 +80,47 @@ function initInteractiveShell() {
     switch (cleanCmd) {
       case 'help':
         printLine('Available Commands:', 'token-property');
-        printLine('  <span class="token-string">about</span>       - Print developer bio and summary');
-        printLine('  <span class="token-string">skills</span>      - List core tech stack & competencies');
-        printLine('  <span class="token-string">projects</span>    - Display featured live projects');
-        printLine('  <span class="token-string">experience</span>  - View virtual internships & programs');
-        printLine('  <span class="token-string">certs</span>       - List verified certifications');
-        printLine('  <span class="token-string">resume</span>      - Open / Download official resume');
-        printLine('  <span class="token-string">contact</span>     - Display email & social profiles');
-        printLine('  <span class="token-string">clear</span>       - Clear the terminal screen');
-        printLine('  <span class="token-string">matrix</span>      - Easter egg mode');
+        printLine('  <span class="token-string">pitch</span>        - 30-second elevator pitch for recruiters / interviewers');
+        printLine('  <span class="token-string">about</span>        - Candidate background & 3rd-year CSE status');
+        printLine('  <span class="token-string">skills</span>       - Core tech stack & CS engineering competencies');
+        printLine('  <span class="token-string">projects</span>     - Production deployments & backend architectures');
+        printLine('  <span class="token-string">experience</span>   - Virtual internships (Java Full Stack & AWS)');
+        printLine('  <span class="token-string">certs</span>        - 9 verified industry certifications');
+        printLine('  <span class="token-string">resume</span>       - View / Download official resume PDF');
+        printLine('  <span class="token-string">contact</span>      - Email & LinkedIn connection info');
+        printLine('  <span class="token-string">clear</span>        - Clear the terminal screen');
+        break;
+
+      case 'pitch':
+      case 'hire':
+      case 'placement':
+        printLine('🎯 <strong>30-Second Interview Pitch:</strong>', 'token-property');
+        printLine('  • <strong>Candidate:</strong> 3rd-Year B.Tech CSE (Axis Institute Kanpur, Batch 2028).');
+        printLine('  • <strong>Core Focus:</strong> Enterprise Java Backend (Spring Boot, Hibernate, MySQL) & Modern Full-Stack.');
+        printLine('  • <strong>Proven Work:</strong> Deployed <strong>SkyCast AI</strong> (Meteorological platform) & <strong>Mehfil</strong> (Audio app).');
+        printLine('  • <strong>Training:</strong> EduSkills Java Full-Stack & AWS Academy Data Engineering virtual programs.');
+        printLine('  • <strong>Status:</strong> Ready for immediate Technical Interviews & SDE Roles! 🚀');
         break;
 
       case 'about':
-        printLine('👤 Akarsh | B.Tech CSE Student (2024-2028)');
+        printLine('👤 Akarsh | 3rd-Year B.Tech CSE Candidate (2024-2028)');
         printLine('🏛️ Axis Institute of Technology & Management, Kanpur');
-        printLine('🎯 Software Developer with expertise in Java, DSA, Web Dev & AI.');
+        printLine('🎯 SDE & Java Full Stack Candidate specializing in Spring Boot, REST APIs, Web Dev & Cloud.');
         break;
 
       case 'skills':
-        printLine('⚡ Core Languages: Java, JavaScript, Python, C/C++');
-        printLine('🌐 Web Tech: HTML5, CSS3, ES6+, REST APIs, Spring Boot, MySQL');
-        printLine('🧠 Foundations: DSA, Object-Oriented Programming, Cloud (AWS), Git/GitHub');
+        printLine('⚡ Core Languages: Java (Core, OOP, Collections), JavaScript (ES6+), Python, C/C++, SQL');
+        printLine('🌐 Backend & Web: Spring Boot, Hibernate ORM, RESTful APIs, HTML5, CSS3, DOM APIs');
+        printLine('☁️ Cloud & DB: MySQL, MongoDB Atlas, AWS Cloud Academy Graduate, Data Pipelines');
+        printLine('🛠️ Tools: Git, GitHub, VS Code, IntelliJ IDEA, Postman, Netlify');
         break;
 
       case 'projects':
-        printLine('📂 Featured Projects:');
-        printLine('  1. <strong>SkyCast AI Platform</strong> - Disaster & meteorological intelligence (OpenWeather & Maps)');
-        printLine('  2. <strong>Mehfil Music Platform</strong> - Curated music streaming web app (Netlify)');
-        printLine('  3. <strong>DSA Problem Solving in Java</strong> - Arrays, Strings, Trees & LeetCode');
-        printLine('  4. <strong>Akarsh Developer Portfolio v2</strong> - Modern interactive portfolio');
+        printLine('📂 Featured Production Deployments & Systems:');
+        printLine('  1. <strong>SkyCast AI</strong> - District Disaster & Meteorological Intelligence Platform');
+        printLine('  2. <strong>Mehfil</strong> - Soulful Music Streaming Web Application (Netlify)');
+        printLine('  3. <strong>Java Full-Stack REST API Architecture</strong> - Spring Boot, Hibernate & MySQL');
+        printLine('  4. <strong>Developer Portfolio v2</strong> - Glassmorphic Bento UI & CLI Emulator');
         break;
 
       case 'experience':
